@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-#©_2022_ibuki_saito
+# SPDX-FileCopyrightText: 2022 Ibuki Saito <s21c1050gb@s.chibakoudai.jp>
+
 import sys
 
 ans = 0.0
