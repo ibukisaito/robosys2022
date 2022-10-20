@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Ibuki Saito <s21c1050gb@s.chibakoudai.jp>
-
+# SPDX-License-Identifier: BSD-3-Clause
 import sys
 
 ans = 0.0
