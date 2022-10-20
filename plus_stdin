@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+#©_2022_ibuki_saito
 import sys
 
 ans = 0.0
