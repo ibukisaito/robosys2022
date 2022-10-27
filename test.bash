@@ -18,7 +18,7 @@ out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 
-out=$(echo | ./plus) #空文
+out=$(echo | ./plus) #空文字
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
 		    　 
