@@ -1,5 +1,5 @@
 # robosys2022
-my repository/
+my repository
 # plusコマンド
 ![test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
