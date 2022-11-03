@@ -9,7 +9,7 @@ my repository
 * 標準入力から読み込んだ数字を足す。
 
 # test.bashコマンド
-![test.bash](https://github.com/ibukisaito/robosys2022/blob/7895378f26468b2f625fe6e5f3b96da876047934/test.bash)
+[test.bash](https://github.com/ibukisaito/robosys2022/blob/7895378f26468b2f625fe6e5f3b96da876047934/test.bash)
 
 ## 内容
 * test.bashを実行するとplusに対し1～5の引数を与え、標準出力が15と等しいか銅貨を確認する
