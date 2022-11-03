@@ -3,10 +3,11 @@ my repository
 # plusコマンド
 ![test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
+![plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)
 ## 内容
 * 標準入力から読み込んだ数字を足す。
 
-## 使い方
+## test.bashコマンド
 * test.bashを実行するとplusに対し1～5の引数を与え、標準出力が15と等しいか銅貨を確認する
 
 
