@@ -1,3 +1,4 @@
+//!/user/bin/c
 /* Gauss-Seidel Method, 2002-10-05 NA1 */
 
 #include <stdio.h>
