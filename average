@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Ibuki Saito <s21c1050gb@s.chibakoudai.jp>
+# SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+su = 0.0
+i = 0;
+for line in sys.stdin:
+    su += float(line)
+    i += 1
+    
+try:
+    su = su / i
+    print(su)
+
+except ZeroDivisionError:
+    print('Error')
+    
