@@ -3,23 +3,11 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-mi = ma = su = 0.0
-ans = 0.0
-i = 0;
+ans = 0
 for line in sys.stdin:
-    if(mi > int(line)):
-        mi = float(line)
-    if(ma < int(line)):
-        ma = float(line)
-    su += float(line)
-    i += 1
     try :
         ans += int(line)
     except:
         ans += float(line)
 
-su = su / i
-print(ans,end=',')
-print(mi,end=',')
-print(ma,end=',')
-print(su)
+print(ans)
