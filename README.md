@@ -1,18 +1,12 @@
 # robosys2022
 my repository
 # plusコマンド
-![test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
 ![plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)
 * plusコマンドurl
 ## 内容
 * 標準入力から読み込んだ数字を足す。
-
-# test.bashコマンド
-![test.bash](https://github.com/ibukisaito/robosys2022/blob/7895378f26468b2f625fe6e5f3b96da876047934/test.bash)
-
-## 内容
-* test.bashを実行するとplusに対し1～5の引数を与え、標準出力が15と等しいか銅貨を確認する
+* 標準出力には合計、最小値、最大値、平均値の形式で出力される
 
 
 ## 実用なソフトウェア

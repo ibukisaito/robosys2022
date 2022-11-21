@@ -10,7 +10,7 @@ res=0
 
 ###I/O TEST###
 out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng ${LINENO}
+[ "${out}" = 15.0,0.0,5.0,3.0 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 
