@@ -10,17 +10,3 @@ jobs:
     - uses: actions/checkout@v3
     - name: All test
       run: bash -xv ./test.bash
-
-
-name: ave_test
-on: push
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.7","3.8","3.9","3.10"]
-    steps:
-    - uses: actions/checkout@c3
-    - name: All ave_test
-      run: bash -xv ./ave_test.bash
