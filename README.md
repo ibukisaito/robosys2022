@@ -30,13 +30,12 @@ $ seq 10 | ./average
 ```
 
 ## 実行方法
-* code からSSH用のURLをコピー
 * ターミナル上で下のコマンドを実行
 ```
-git clone <url>
+git clone git@github.com:ibukisaito/robosys2022.git
 ```
-+ クローンが完了したらrobosys2022のディレクトリに移動
-+ それぞれのコマンドを実行
+* クローンが完了したらrobosys2022のディレクトリに移動
+* それぞれのコマンドを実行
 
 ## 実用なソフトウェア
 * python
