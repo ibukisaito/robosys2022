@@ -6,7 +6,7 @@
 
 
 [plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)
-* plusコマンドurl
+
 ## 内容
 * 標準入力から読み込んだ数字を足す。
 * 標準出力には合計、最小値、最大値、平均値の形式で出力される
@@ -19,7 +19,7 @@ $ seq 10 | ./plus
 ![ave_test](https://github.com/ibukisaito/robosys2022/actions/workflows/ave_test.yml/badge.svg)
 
 [average](https://github.com/ibukisaito/robosys2022/blob/b799d5a19e61765d451c43bcc65d90301a6c42ee/average)
-* averageコマンドurl
+
 ## 内容
 * 標準入力から読み込んだ数字の平均値をfloat型で標準出力に出力する
 * 読み込んだ数字の和が０の時、数字を一つも読み込んでないときは標準出力にErrorが出力される
