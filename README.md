@@ -31,6 +31,10 @@ seq 10 | ./average
 ## テスト環境
 * Ubuntu
 
+## 参考サイト
+* [pythonの例外処理](https://note.nkmk.me/python-try-except-else-finally/) nkmk 最終更新　2021-01-10 
+
+
 ## ライセンス
   * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
   * このパッケージは，aaa由来のコード（© 2022 Hoge Fuge）を利用しています．
