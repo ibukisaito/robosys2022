@@ -29,6 +29,14 @@ $ seq 10 | ./average
 5.5 # <- 出力例
 ```
 
+## 実行方法
+1.code からSSH用のURLをコピー
+2.ターミナル上で下のコマンドを実行
+```
+git clone <url>
+```
+3.クローンが完了したらrobosys2022のディレクトリに移動
+4.それぞれのコマンドを実行
 
 ## 実用なソフトウェア
 * python
@@ -44,7 +52,6 @@ $ seq 10 | ./average
 
 ## ライセンス
   * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-  * このパッケージは，nkmk由来のコード（© 2017 nkmk.me）を利用しています．
   * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
       * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
   * © 2022 Ibuki Saito
