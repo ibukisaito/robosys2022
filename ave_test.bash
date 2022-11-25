@@ -10,8 +10,7 @@ res=0
 
 ###I/O TEST###
 out=$(seq 5 | ./average)
-[ "${out}" = 3.0 ] || ng ${LINENO}
-
+[ "${out}" = 3.0 ] || ng ${{LINENO}
 out=$(seq 0 | ./average)
 [ "${out}" = Error ] || ng ${LINENO}
 
