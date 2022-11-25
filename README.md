@@ -30,7 +30,7 @@ $ seq 10 | ./average
 ```
 
 ## 実行方法
-* ターミナル上で下のコマンドを実行
+* pythonがダウンロードされている環境で下のコマンドを実行
 ```
 git clone git@github.com:ibukisaito/robosys2022.git
 ```
