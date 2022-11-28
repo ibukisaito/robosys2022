@@ -4,6 +4,8 @@
 
 ![test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
+![test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml/badge.svg)]
+[test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml)
 # plusコマンド
 
 [plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)
