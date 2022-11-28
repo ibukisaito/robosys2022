@@ -14,6 +14,7 @@ out=$(seq 5 | ./plus)
 
 ### STRANGE INPUT ###
 
+<<<<<<< HEAD
 out=$(echo あ | ./plus)
 [ "$?" = 1 ]      || ng ${LINENO}
 [ "${out}" = "" ] || ng ${LINENO}
@@ -23,5 +24,14 @@ out=$(echo | ./plus) #空文字
 [ "${out}" = "" ] || ng ${LINENO}
 		    　 
 [ "$res" = 0 ] && echo OK
+=======
+out=$(seq 5 | ./average)
+[ "${out}" = 3.0 ] || ng ${{LINENO}
+out=$(seq 0 | ./average)
+[ "${out}" = Error ] || ng ${LINENO}
+
+[ "$res" = 0 ] && echo OK
+
+>>>>>>> main
 exit $res
 

@@ -3,11 +3,16 @@
 # SPDX-License-Identifier: BSD-3-Clause
 import sys
 
-ans = 0
+su = 0.0
+i = 0;
 for line in sys.stdin:
-    try :
-        ans += int(line)
-    except:
-        ans += float(line)
+    su += float(line)
+    i += 1
+    
+try:
+    su = su / i
+    print(su)
 
-print(ans)
+except ZeroDivisionError:
+    print('Error')
+    
