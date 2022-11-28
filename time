@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+
+
+
+import sys
+import datetime
+
+
+time_now = datetime.datetime.now()
+print(time_now)
+
+time_offset = datetime.timedelta(hours=9)
+
+time_offset_now = time_now + time_offset
+
+print(time_offset_now.strftime("%H:%M:%S"))
