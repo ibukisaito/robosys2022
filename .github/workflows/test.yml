@@ -10,3 +10,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: All test
       run: bash -xv ./test.bash
+
+    - uses: action/checkout@v3
+    - name: ALL test
+      run: bash -xv ./ave_test.bash
