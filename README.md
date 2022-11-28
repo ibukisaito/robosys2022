@@ -38,8 +38,8 @@ git clone git@github.com:ibukisaito/robosys2022.git
 * それぞれのコマンドを実行
 
 # 実用なソフトウェア
-* python
-  * テスト済み:3.7～3.10
+* テスト済み
+  * python:3.7～3.10
 
 
 # テスト環境
