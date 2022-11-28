@@ -6,11 +6,11 @@
 
 # plusコマンド
 ## plusコマンドリンク
-* [plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)クリックするとplusコマンドへ飛びます
+* [plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)クリックするとplusコマンドへ飛ぶ
 
 ## 内容
 * 標準入力から読み込んだ数字を足す。
-* 標準出力には合計、最小値、最大値、平均値の形式で出力される
+* 標準出力には合計が出力される
 * 入力の書き方
 ```
 $ seq 10 | ./plus
@@ -18,7 +18,7 @@ $ seq 10 | ./plus
 ```
 # averageコマンド
 ## averageコマンドリンク
-* [average](https://github.com/ibukisaito/robosys2022/blob/b799d5a19e61765d451c43bcc65d90301a6c42ee/average)クリックするとaverageコマンドへ飛びます
+* [average](https://github.com/ibukisaito/robosys2022/blob/b799d5a19e61765d451c43bcc65d90301a6c42ee/average)クリックするとaverageコマンドへ飛ぶ
 
 ## 内容
 * 標準入力から読み込んだ数字の平均値をfloat型で標準出力に出力する
@@ -32,7 +32,7 @@ $ seq 10 | ./average
 # 実行方法
 * gitとpythonがダウンロードされている環境で下のコマンドを実行
 ```
-git clone git@github.com:ibukisaito/robosys2022.git
+$ git clone git@github.com:ibukisaito/robosys2022.git
 ```
 * クローンが完了したらrobosys2022のディレクトリに移動
 * それぞれのコマンドを実行
@@ -50,7 +50,7 @@ git clone git@github.com:ibukisaito/robosys2022.git
 
 
 # ライセンス
-  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
+  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです
       * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
   * © 2022 Ibuki Saito
