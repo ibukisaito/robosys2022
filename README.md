@@ -1,9 +1,10 @@
 # robosys2022
 ロボットシステム学の講義用のリポジトリ
 
-# plusコマンド
+
 ![test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
+# plusコマンド
 
 [plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)
 
@@ -16,7 +17,6 @@ $ seq 10 | ./plus
 55  # <- 出力例
 ```
 # averageコマンド
-![ave_test](https://github.com/ibukisaito/robosys2022/actions/workflows/ave_test.yml/badge.svg)
 
 [average](https://github.com/ibukisaito/robosys2022/blob/b799d5a19e61765d451c43bcc65d90301a6c42ee/average)
 
