@@ -49,7 +49,7 @@ Not Implement
   * アメリカ(america)
   * イギリス(england)
   * ロシア(russia)
-  * 
+  * 中国(china)
 
 # 実行方法
 * gitとpythonがダウンロードされている環境で下のコマンドを実行
