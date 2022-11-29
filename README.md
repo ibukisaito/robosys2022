@@ -35,7 +35,13 @@ $ seq 10 | ./average
 * [country_time](https://github.com/ibukisaito/robosys2022/blob/05ea4bd7b0a71ea81ca6dd91f50e4ac71bedd737/country_time)クリックするとciuntry_timeコマンドへ飛ぶ
 
 ## 内容
-* 
+* 標準入力から国名を読み取り、その国の現在の時間を出力する(24時間表記)
+* 入力した国名が実装されていなかったら、標準出力にNot Implementが出力される
+* 入力の書き方 日本時間が16:03の時
+```
+$ ./country_time america
+2:03 # <- 出力例
+```
 
 # 実行方法
 * gitとpythonがダウンロードされている環境で下のコマンドを実行
