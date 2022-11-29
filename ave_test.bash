@@ -14,6 +14,8 @@ out=$(seq 5 | ./average)
 out=$(seq 0 | ./average)
 [ "${out}" = Error ] || ng ${LINENO}
 
+
+
 [ "$res" = 0 ] && echo OK
 
 exit $res

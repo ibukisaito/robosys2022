@@ -23,11 +23,10 @@ time_now = datetime.datetime.now()
 
 count = input()
 t = country(count)
-
-time_offset = datetime.timedelta(hours=t)
-
-time_offset_now = time_now + time_offset
-
-print(time_offset_now.strftime("%H:%M:%S"))
-
+if t != 24:
+    time_offset = datetime.timedelta(hours=t)
+    time_offset_now = time_now + time_offset
+    print(time_offset_now.strftime("%H:%M:%S"))
+else :
+    print('Not Implement')
 

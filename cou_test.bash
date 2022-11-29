@@ -12,7 +12,13 @@ res=0
 out=$(echo america | ./country_time)
 in=$(date -d '14 hours ago' '+%T')
 [ "${out}" == "${in}" ] || ng ${LINENO}
-　 
+
+out=$(echo india | ./country_time)
+[ "${out}" == 'Not Implement' ] || ng ${LINENO}
+
+out=$(echo あ | ./country_time)
+[ "${out}" == 'Not Implement' ] || ng ${LINENO}
+
 [ "$res" = 0 ] && echo OK
 
 exit $res
