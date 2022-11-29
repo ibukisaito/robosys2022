@@ -21,7 +21,7 @@ def country(c):
 
 time_now = datetime.datetime.now()
 
-count = input()
+count = sys.argv[1]
 t = country(count)
 if t != 24:
     time_offset = datetime.timedelta(hours=t)

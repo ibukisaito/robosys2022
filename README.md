@@ -27,7 +27,15 @@ $ seq 10 | ./plus
 ```
 $ seq 10 | ./average
 5.5 # <- 出力例
+
 ```
+
+# country_timeコマンド
+## country_timeコマンドリンク
+* [country_time](https://github.com/ibukisaito/robosys2022/blob/05ea4bd7b0a71ea81ca6dd91f50e4ac71bedd737/country_time)クリックするとciuntry_timeコマンドへ飛ぶ
+
+## 内容
+* 
 
 # 実行方法
 * gitとpythonがダウンロードされている環境で下のコマンドを実行

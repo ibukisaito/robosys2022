@@ -9,15 +9,15 @@ ng(){
 res=0
 
 ###I/O TEST###
-out=$(echo america | ./country_time)
+out=$(./country_time america)
 in=$(date -d '14 hours ago' '+%T')
-[ "${out}" == "${in}" ] || ng ${LINENO}
+[ "${out}" = "${in}" ] || ng ${LINENO}
 
-out=$(echo india | ./country_time)
-[ "${out}" == 'Not Implement' ] || ng ${LINENO}
+out=$(./country_time india)
+[ "${out}" = 'Not Implement' ] || ng ${LINENO}
 
-out=$(echo あ | ./country_time)
-[ "${out}" == 'Not Implement' ] || ng ${LINENO}
+out=$(./country_time あ)
+[ "${out}" = 'Not Implement' ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK
 
