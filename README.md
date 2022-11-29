@@ -52,6 +52,7 @@ Not Implement # <- 出力例
 * ドイツ(germany)
 * ロシア(russia)
 * 中国(china)
+* 日本(japan)
 
 # 実行方法
 * gitとpythonがダウンロードされている環境で下のコマンドを実行
