@@ -12,3 +12,4 @@ jobs:
       run: |
         bash -xv ./test.bash
         bash -xv ./ave_test.bash
+        bash -xv ./cou_test.bash
