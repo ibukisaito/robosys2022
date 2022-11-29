@@ -12,10 +12,10 @@
 * 入出力例
 ```
 $ seq 10 | ./plus
-55  
+55 # <- 出力例
 
 $ seq 5 | ./plus
-15
+15 # <- 出力例
 ```
 # averageコマンド
 
@@ -25,10 +25,10 @@ $ seq 5 | ./plus
 * 入出力例
 ```
 $ seq 10 | ./average
-5.5 
+5.5 # <- 出力例
 
 $ seq 0 | ./average
-Error
+Error # <- 出力例
 ```
 
 # country_timeコマンド
@@ -40,10 +40,10 @@ Error
 * 入出力例 日本時間が16:03の時
 ```
 $ ./country_time america
-2:03 
+2:03 # <- 出力例
 
 $ ./country_time india
-Not Implement
+Not Implement # <- 出力例
 ```
 ## 実装されている国
 * アメリカ(america)
