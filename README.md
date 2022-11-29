@@ -45,7 +45,7 @@ $ ./country_time america
 $ ./country_time india
 Not Implement
 ```
-# 実装されている国
+## 実装されている国
 * アメリカ(america)
 * イギリス(england)
 * ロシア(russia)
