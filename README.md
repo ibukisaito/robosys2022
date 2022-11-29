@@ -32,7 +32,7 @@ $ seq 10 | ./average
 # 実行方法
 * gitとpythonがダウンロードされている環境で下のコマンドを実行
 ```
-git clone git@github.com:ibukisaito/robosys2022.git
+git clone https://github.com/ibukisaito/robosys2022.git
 ```
 * クローンが完了したらrobosys2022のディレクトリに移動
 * それぞれのコマンドを実行
