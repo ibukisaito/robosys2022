@@ -5,8 +5,6 @@
 ![test](https://github.com/ibukisaito/robosys2022/actions/workflows/test.yml/badge.svg)
 
 # plusコマンド
-## plusコマンドリンク
-* [plus](https://github.com/ibukisaito/robosys2022/blob/cf790184e64ac079aa0bdab4d2b5299e648cc683/plus)クリックするとplusコマンドへ飛ぶ
 
 ## 内容
 * 標準入力から読み込んだ数字を足す。
@@ -17,8 +15,6 @@ $ seq 10 | ./plus
 55  # <- 出力例
 ```
 # averageコマンド
-## averageコマンドリンク
-* [average](https://github.com/ibukisaito/robosys2022/blob/b799d5a19e61765d451c43bcc65d90301a6c42ee/average)クリックするとaverageコマンドへ飛ぶ
 
 ## 内容
 * 標準入力から読み込んだ数字の平均値をfloat型で標準出力に出力する
