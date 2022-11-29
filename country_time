@@ -18,7 +18,7 @@ def load_date():
         time_offset_now = time_now + time_offset
         print(time_offset_now.strftime("%H:%M:%S"))
     else:
-        print('Not Implemrnt')
+        print('Not Implement')
 
 def country(c):
     
@@ -34,6 +34,8 @@ def country(c):
         t = -1
     elif c == 'japan':
         t = 0
+    else:
+        t = 24
     
     return t
 
