@@ -10,7 +10,7 @@ res=0
 
 ###I/O TEST###
 out=$(echo america | ./country_time)
-in=$(date -d '14 hours ago' '+%Y-%m-%d [%H:%M:%S]')
+in=$(date -d '14 hours ago' '%H:%M:%S')
 [ "${out}" == "${in}" ] || ng ${LINENO}
 　 
 [ "$res" = 0 ] && echo OK
