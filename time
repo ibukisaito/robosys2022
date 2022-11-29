@@ -1,18 +1,33 @@
 #!/usr/bin/python3
 
 
-import country.py
 import sys
 import datetime
 
+def country(c):
+
+    if c == 'america':
+        t = -14
+    elif c == 'china':
+        t= -1
+    elif c == 'england':
+        t = -9
+    elif c == 'russia':
+        t = -4
+    else :
+        t = 24
+
+    return t
 
 time_now = datetime.datetime.now()
-print(time_now)
 
 count = input()
+t = country(count)
 
-time_offset = datetime.timedelta(hours=9)
+time_offset = datetime.timedelta(hours=t)
 
 time_offset_now = time_now + time_offset
 
 print(time_offset_now.strftime("%H:%M:%S"))
+
+
