@@ -5,29 +5,39 @@
 import sys
 import datetime
 
-def country(c):
 
+def main():
+    load_date()
+
+def load_date():
+    time_now = datetime.datetime.now()
+
+    t = country(sys.argv[1])
+    if t != 24:
+        time_offset = datetime.timedelta(hours=t)
+        time_offset_now = time_now + time_offset
+        print(time_offset_now.strftime("%H:%M:%S"))
+    else:
+        print('Not Implemrnt')
+
+def country(c):
+    
     if c == 'america':
         t = -14
-    elif c == 'china':
-        t= -1
     elif c == 'england':
         t = -9
+    elif c == 'france' or c == 'germany':
+        t = -8
     elif c == 'russia':
         t = -4
-    else :
-        t = 24
-
+    elif c == 'china':
+        t = -1
+    elif c == 'japan':
+        t = 0
+    
     return t
 
-time_now = datetime.datetime.now()
 
-count = sys.argv[1]
-t = country(count)
-if t != 24:
-    time_offset = datetime.timedelta(hours=t)
-    time_offset_now = time_now + time_offset
-    print(time_offset_now.strftime("%H:%M:%S"))
-else :
-    print('Not Implement')
+if __name__ == '__main__':
+    main()
 

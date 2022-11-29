@@ -48,6 +48,8 @@ Not Implement # <- 出力例
 ## 実装されている国
 * アメリカ(america)
 * イギリス(england)
+* フランス(france)
+* ドイツ(germany)
 * ロシア(russia)
 * 中国(china)
 
