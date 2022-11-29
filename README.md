@@ -27,8 +27,6 @@ $ seq 10 | ./average
 ```
 
 # country_timeコマンド
-## country_timeコマンドリンク
-* [country_time](https://github.com/ibukisaito/robosys2022/blob/05ea4bd7b0a71ea81ca6dd91f50e4ac71bedd737/country_time)クリックするとciuntry_timeコマンドへ飛ぶ
 
 ## 内容
 * 標準入力から国名を読み取り、その国の現在の時間を出力する(24時間表記)
