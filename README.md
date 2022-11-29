@@ -69,10 +69,11 @@ $ git clone https://github.com/ibukisaito/robosys2022.git
 
 # 参考サイト
 * [pythonの例外処理](https://note.nkmk.me/python-try-except-else-finally/) nkmk 最終更新　2021-01-10 
+* [Pythonで経過時間や日時(日付・時刻)の差分を測定・算出](https://note.nkmk.me/python-datetime-timedelta-measure-time/) nkmk 最終更新 2019-02-04
 
 
 # ライセンス
-  * このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
-  * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです
-      * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
-  * © 2022 Ibuki Saito
+* このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです
+	* [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+* © 2022 Ibuki Saito
