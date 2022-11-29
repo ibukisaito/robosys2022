@@ -1,13 +1,15 @@
 #!/usr/bin/python3
 
 
-import country
+import country.py
 import sys
 import datetime
 
 
 time_now = datetime.datetime.now()
 print(time_now)
+
+count = input()
 
 time_offset = datetime.timedelta(hours=9)
 
